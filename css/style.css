@@ -1,0 +1,61 @@
+/*======================================
+Font integrated CSS
+========================================*/
+@font-face{
+	font-family: PTSans-Regular;
+	src: url("../fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: PTSans-Bold;
+	src: url("../fonts/PT_Sans/PTSans-Bold.ttf");
+}
+
+@font-face{
+	font-family: Helvetica-Neue-Bold;
+	src: url("../fonts/Helvetica-Neue-Bold/Helvetica-Neue-Bold.ttf");
+}
+
+/*======================================
+Common CSS
+========================================*/
+/*Common start*/
+body{
+  font-family: 'PTSans-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010101;
+}
+/*Common end*/
+/*======================================
+Header CSS
+========================================*/
+/*Header start*/
+header{
+  background-color: #fcdb00;
+  padding: 20px 0;
+}
+
+.custom_nav{
+  
+}
+
+.logo{
+
+}
+
+.menu ul li a{
+	font-family: 'PTSans-Bold', sans-serif;
+  font-size: 22px;
+  color: #010101 !important;
+  padding: 0 37px !important;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+
+.menu ul li a:hover{
+	color: white !important;
+}
+/*Header end*/
